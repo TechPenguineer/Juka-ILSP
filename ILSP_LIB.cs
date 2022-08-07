@@ -1,6 +1,5 @@
-﻿using juka.ilsp.strucutre;
+﻿using juka;
 
-public class juka
+public class ILSP
 {
-    juka.ilsp.strucutre.grammar grammar;
 }
