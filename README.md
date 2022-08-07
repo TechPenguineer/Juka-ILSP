@@ -8,7 +8,7 @@ Juka’s integrated language server protocol ( ILSP ) is what Juka Application�
  It starts by having an event system that is called everytime the editor detects a change in user input. It then parses the data, and passes it as an argument to the LSP. The LSP will search for the defined token’s in categories show in the flow chart. It will create an array with formatted with the following key pairs:
 
 
-`[ {TOKEN_LOCATION}, {DFEINED_HEX} ]`
+`[ {TOKEN_LOCATION, DFEINED_HEX} ]`
 
 
 The LSP will automatically fine the term by the “TOKEN_LOCATION” value. The Token Location variable will store the index of which it occurs in the parsed data array. The HEX will automatically be paired from a preset definition. 
