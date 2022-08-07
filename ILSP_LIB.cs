@@ -1,5 +1,6 @@
-﻿namespace Juka_ILSP;
-public class Class1
-{
+﻿using juka.ilsp.strucutre;
 
+public class juka
+{
+    juka.ilsp.strucutre.grammar grammar;
 }
